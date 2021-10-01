@@ -1,0 +1,18 @@
+.cvContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cvContainerl{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cvContainerr{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

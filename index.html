@@ -6,22 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jobs.css">
+  <link rel="stylesheet" href="cv.css">
   <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
   <title>Web portafolio Andres Genes</title>
 </head>
 
 <body>
+  <header id="menuHader">
+    <h1 style="font-size: 1.5em" data-aos="fade-down" data-aos-duration="3000">Andres Genes</h1>
+    <ul class="navigation" data-aos="fade-down" data-aos-duration="3000">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#tecnologias">Tecnologias</a></li>
+      <li class="liContacto">
+        <a href="/contacto">Contacto</a>
+      </li>
+    </ul>
+  </header>
   <div class="containerHeader">
-    <header id="menuHader">
-      <h1 style="font-size: 1.5em" data-aos="fade-down" data-aos-duration="3000">Andres Genes</h1>
-      <ul class="navigation" data-aos="fade-down" data-aos-duration="3000">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#tecnologias">Tecnologias</a></li>
-        <li class="liContacto">
-          <a href="/contacto">Contacto</a>
-        </li>
-      </ul>
-    </header>
     <section class="secpep" id="sectionPrincipal">
       <div class="contentpep">
         <div class="textBox" data-aos="fade-right" data-aos-duration="3000">
@@ -37,28 +39,55 @@
           </div>
         </div>
         <div class="imgBox" data-aos="fade-left" data-aos-duration="3000">
-          <img src="3a.png" class="imgpep" alt="">
+          <img src="img/3a.png" class="imgpep" alt="">
         </div>
       </div>
       <ul class="sci">
         <li>
           <a href="#">
-            <img src="facebook.png" alt="">
+            <img src="img/facebook.png" alt="">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="github.png" alt="">
+            <img src="img/github.png" alt="">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="instagram.png" alt="">
+            <img src="img/instagram.png" alt="">
           </a>
         </li>
       </ul>
     </section>
   </div>
+  <main class="main1">
+    <div class="cvContainer">
+      <div class="cvContainerl"></div>
+      <div class="cvContainerr"></div>
+    </div>
+    <div class="titleTechnologies">
+      <div class="containerImg1"><img src="img/2b.png" alt="">
+      </div>
+      <p>¿Con que tecnologias te gustaria trabajar?</p>
+    </div>
+    <div class="roulette">
+      <div class="boximg">
+        <span style="--i:1;"><img src="img/ca1.svg" alt=""></span>
+        <span style="--i:2;"><img src="img/ca2.svg" alt=""></span>
+        <span style="--i:3;"><img src="img/ca3.svg" alt=""></span>
+        <span style="--i:4;"><img src="img/ca4.svg" alt=""></span>
+        <span style="--i:5;"><img src="img/ca5.svg" alt=""></span>
+        <span style="--i:6;"><img src="img/ca6.svg" alt=""></span>
+        <span style="--i:7;"><img src="img/ca7.svg" alt=""></span>
+        <span style="--i:8;"><img src="img/ca8.svg" alt=""></span>
+      </div>
+    </div>
+    <div class="jobs">
+      <div class="jobs2"></div>
+      <div class="jobs3"></div>
+    </div>
+  </main>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
