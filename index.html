@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="jobs.css">
   <link rel="stylesheet" href="cv.css">
   <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  <link href="node_modules/universal-parallax/dist/universal-parallax.min.css" rel="stylesheet">
   <title>Web portafolio Andres Genes</title>
 </head>
 
@@ -64,33 +65,52 @@
   <main class="main1">
     <div class="cvContainer">
       <div class="cvContainerl"></div>
-      <div class="cvContainerr"></div>
-    </div>
-    <div class="titleTechnologies">
-      <div class="containerImg1"><img src="img/2b.png" alt="">
+      <div class="cvContainerr">
+        <div class="cvTitle">
+          <p>Dascarga mi cv aqui</p>
+        </div>
+        <div class="cvbutton">
+          <button href="#" class="but">
+            <span><img src="img/2.png" alt="lupa"></span>
+            <div class="liquid"></div>
+          </button>
+        </div>
       </div>
-      <p>¿Con que tecnologias te gustaria trabajar?</p>
+      <div class="parallax" data-parallax-image="img/1p.png">
+      </div>
     </div>
-    <div class="roulette">
-      <div class="boximg">
-        <span style="--i:1;"><img src="img/ca1.svg" alt=""></span>
-        <span style="--i:2;"><img src="img/ca2.svg" alt=""></span>
-        <span style="--i:3;"><img src="img/ca3.svg" alt=""></span>
-        <span style="--i:4;"><img src="img/ca4.svg" alt=""></span>
-        <span style="--i:5;"><img src="img/ca5.svg" alt=""></span>
-        <span style="--i:6;"><img src="img/ca6.svg" alt=""></span>
-        <span style="--i:7;"><img src="img/ca7.svg" alt=""></span>
-        <span style="--i:8;"><img src="img/ca8.svg" alt=""></span>
+    <div class="containerRoulette">
+      <div class="titleTechnologies">
+        <p>¿Con que tecnologias te gustaria trabajar?</p>
+      </div>
+      <div class="roulette">
+        <div class="boximg">
+          <span style="--i:1;"><img src="img/ca1.svg" alt=""></span>
+          <span style="--i:2;"><img src="img/ca2.svg" alt=""></span>
+          <span style="--i:3;"><img src="img/ca3.svg" alt=""></span>
+          <span style="--i:4;"><img src="img/ca4.svg" alt=""></span>
+          <span style="--i:5;"><img src="img/ca5.svg" alt=""></span>
+          <span style="--i:6;"><img src="img/ca6.svg" alt=""></span>
+          <span style="--i:7;"><img src="img/ca7.svg" alt=""></span>
+          <span style="--i:8;"><img src="img/ca8.svg" alt=""></span>
+        </div>
       </div>
     </div>
     <div class="jobs">
       <div class="jobs2"></div>
-      <div class="jobs3"></div>
+      <div class="jobs3"><img src="img/wave.svg" alt=""></div>
     </div>
   </main>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
+  <script src="universal-parallax.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    new universalParallax().init({
+      speed: 2
+    });
+  </script>
 </body>
 
 </html>
