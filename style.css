@@ -280,10 +280,16 @@ h1{
   height: 50px;
   border-radius: 25px;
   border: none;
-  background-color: #521ab4;
+  background-color: #000000;
+}
+.but:hover{
+  transform: translateY(-8px);
+  transition: 0.5s;
+  box-shadow:  50px 50px 100px #aaaaaa;
 }
 .but span img{
   width: 40px;
+  filter: invert(1);
 }
 
 @media (max-width: 1366px){
