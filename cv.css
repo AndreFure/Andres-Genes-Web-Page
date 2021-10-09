@@ -42,7 +42,7 @@
   transition: 0.5s;
   box-shadow:  50px 50px 100px #aaaaaa;
 }
-.but span img{
+.but img{
   width: 40px;
   filter: invert(1);
 }

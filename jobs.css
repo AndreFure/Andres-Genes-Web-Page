@@ -134,6 +134,10 @@ input:hover, textarea:hover{
   font-family: 'montserrat',san serif;
   margin-top: 200px;
   margin-bottom: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btncn:hover{
   background: linear-gradient(315deg, #e3eeff, #bfc8df);
@@ -141,3 +145,4 @@ input:hover, textarea:hover{
              11px 11px 22px #ffffff;
   transform: translateY(-5px);
 }
+

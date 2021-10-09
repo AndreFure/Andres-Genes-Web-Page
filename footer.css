@@ -111,6 +111,10 @@ footer{
   text-align: center;
   color: #fff;
 }
+.sec ul li img{
+  width: 30px;
+  height: 30px;
+}
 @media (max-width: 991px){
   footer{
     padding: 40px;
