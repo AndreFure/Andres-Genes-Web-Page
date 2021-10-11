@@ -20,6 +20,7 @@ const home1 = document.querySelector('.home1');
 const miCv = document.querySelector('.miCv');
 const tecnologias1 = document.querySelector('.tecnologias1');
 const contacto = document.querySelector('.contacto');
+const proyectos = document.querySelector('.proyectos');
 
 toggle.onclick = function () {
   toggle.classList.toggle('active');
@@ -71,6 +72,18 @@ tecnologias1.addEventListener('click', function () {
   headerList.classList.remove('active');
 })
 contacto.addEventListener('click', function () {
+  toggle.classList.remove('active');
+  menuHader.classList.remove('active');
+  containerHeader.classList.remove('active');
+  textBoxSpan.classList.remove('active');
+  quote.classList.remove('active');
+  texBoxArgument.classList.remove('active');
+  containerbl.classList.remove('active');
+  imgBox.classList.remove('active');
+  sci.classList.remove('active');
+  headerList.classList.remove('active');
+})
+proyectos.addEventListener('click', function () {
   toggle.classList.remove('active');
   menuHader.classList.remove('active');
   containerHeader.classList.remove('active');
