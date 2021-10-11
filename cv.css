@@ -69,3 +69,16 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+@media (max-width: 1366px){
+  .cvContainerr{
+    margin-right: 160px;
+  }
+}
+@media (max-width: 810px){
+  .cvContainerr{
+    margin-right: 100px;
+  }
+  .formCont{
+    margin-left: -330px;
+  }
+}

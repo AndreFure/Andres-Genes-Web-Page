@@ -145,4 +145,10 @@ input:hover, textarea:hover{
              11px 11px 22px #ffffff;
   transform: translateY(-5px);
 }
+@media (max-width: 810px){
+  .cnf{
+    flex-direction: column;
+    height: 220vh;
+  }
+}
 
