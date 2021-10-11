@@ -54,6 +54,9 @@ input, textarea{
 input:hover, textarea:hover{
   background: rgba(255, 255, 255, 0.18);
 }
+.input, .textarea, .email{
+    width: 400px;
+  }
 
 .btnmsj{
   height: 40px;
@@ -152,3 +155,18 @@ input:hover, textarea:hover{
   }
 }
 
+@media (max-width: 375px){
+  .formCont1{
+    margin-left: 370px;
+    width: 330px;
+  }
+  .input, .textarea, .email{
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerRoulette{
+    height: 120vh;
+  }
+}

@@ -443,6 +443,12 @@ h1{
 }
 @media (max-width: 375px)
 {
+  body{
+    background-color: #fff;
+  }
+  .containerHeader{
+    height: 150vh;
+  }
   h1{
   font-weight: 30;
   }
@@ -451,6 +457,8 @@ h1{
   }
   .contentpep .imgBox img {
     max-width: 300px;
+    margin-right: -50px;
+    margin-top: -60px;
   }
   .contentpep .imgBox{
   margin-left: 30vw;
@@ -469,9 +477,12 @@ h1{
   top: -10vh
   }
   .menuHader li{
-    margin-left: -40px;
+    margin-left: -60px;
   }
   .textBox{
     margin-left: 200px;
+  }
+  .a{
+    margin-left: -180px;
   }
 }

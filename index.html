@@ -114,10 +114,16 @@
         <form enctype="text/plain" action="mailto:andresgenes@hotmail.com" class="formCont1" method="post"
           data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
           <p class="contactus">Contactame</p>
-          <input type="text" placeholder="Tu nombre" required style="width: 400px;">
-          <input type="e-mail" placeholder="Tu correo" required style="width: 400px;">
-          <textarea name="mensaje" id="" cols="30" rows="10" required style="width: 400px;"
-            placeholder="Mensaje. Ejemplo: Hey, me interesa tu trabajo..!"></textarea>
+          <div class="input">
+            <input type="text" placeholder="Tu nombre" required>
+          </div>
+          <div class="email">
+            <input type="e-mail" placeholder="Tu correo" required>
+          </div>
+          <div class="textarea">
+            <textarea name="mensaje" id="" cols="30" rows="10" required
+              placeholder="Mensaje. Ejemplo: Hey, me interesa tu trabajo..!"></textarea>
+          </div>
           <button class="btnmsj">Enviar mensaje</button>
         </form>
       </div>
