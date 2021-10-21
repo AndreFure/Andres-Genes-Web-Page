@@ -1,0 +1,31 @@
+
+.jobsTitles{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.tT{
+  font-size: 40px;
+  margin-top: 170px;
+}
+
+@media (max-width: 1366px){
+  .jobsTitles{
+    height: 180vh;
+  }
+}
+@media (max-width: 810px){
+  .jobsTitles{
+    height: 260vh;
+  }
+  .tT{
+  margin-top: -180px;
+  }
+  .tT p{
+    font-size: 30px;
+  }
+
+}
