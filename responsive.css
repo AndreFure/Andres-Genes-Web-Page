@@ -1,4 +1,5 @@
 
+
 .jobsTitles{
   width: 100vw;
   height: 100vh;
@@ -11,6 +12,8 @@
   font-size: 40px;
   margin-top: 170px;
 }
+
+
 
 @media (max-width: 1366px){
   .jobsTitles{
@@ -27,5 +30,4 @@
   .tT p{
     font-size: 30px;
   }
-
 }
