@@ -14,6 +14,14 @@
   height: 100%;
   border-radius: 20px;
 }
+@media (max-width: 1440px){
+  .jobsTitles{
+    height: 100vh;
+  }
+  .tT{
+    margin-top: 260px;
+  }
+}
 
 @media (max-width: 1366px){
   .jobsTitles{
@@ -23,6 +31,34 @@
     margin-top: 500px;
   }
 }
+@media (max-width: 1280px){
+  .jobsTitles{
+    height: 100vh;
+  }
+  .tT{
+    margin-top: 260px;
+  }
+  .containerHeader{
+    height: 110vh;
+  }
+  .secpep{
+    margin-top: -150px;
+  }
+  .containerRoulette{
+    height: 130vh;
+  }
+  .formCont{
+    margin-top: 150px;
+  }
+  .jobsTitles{
+    height: 140vh;
+  }
+  .tT{
+    margin-top: 600px;
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-width: 810px){
   .jobsTitles{
     height: 170vh;
@@ -58,6 +94,17 @@
   }
 }
 @media (max-width: 340px){
+  .sci {
+    margin-right: 60px;
+  }
+  .sci li{
+    margin-right: 30px;
+  }
+  .containerbl .btnl{
+    margin-right: 60px;
+  }
+}
+@media (max-width: 320px){
   .sci {
     margin-right: 60px;
   }
